@@ -17,6 +17,6 @@ class TestEvaluation:
         X_test = getData[['sepal_length','sepal_width','petal_length','petal_width']]
         prediction=mod_dt.predict(X_test)
         assert prediction[0] == 'versicolor', f'\n Expected versicolor but got {prediction[0]}'
-        print(f'Test correctly predicts versicolor')
+        print(f'Test correctly predicts Versicolor for the given data')
 
 
